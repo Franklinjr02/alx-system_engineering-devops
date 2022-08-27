@@ -1,1 +1,1 @@
-readme for OSI model
+This Repository contain task on networking basic
