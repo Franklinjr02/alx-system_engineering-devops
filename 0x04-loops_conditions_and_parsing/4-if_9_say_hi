@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
-# loop 10 times, prints, on 9th loop says hi
+# Displays Best School 10 times, but for the 9th iteration, displays Best School and then Hi on a new line
 
-i=10
+num=0
 
-while [ $i -gt 0 ];do
-    echo "Holberton School"
-    if [ $i = 2 ]; then
+while [ $num -lt 10 ]
+do
+    if [ $num -eq 9 ]
+    then
         echo "Hi"
     fi
-    let i-=1
+    echo "Best School"
+    (( num++ ))
 done
